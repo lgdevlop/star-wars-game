@@ -1,0 +1,22 @@
+@import "../../common/assets/mixins.scss";
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 30vh 40vh 30vh;
+  justify-items: center;
+  background: #000;
+
+  @include media-queries(800) {
+    justify-content: unset;
+    grid-template-rows: 30vh 50vh 20vh;
+  }
+
+}
+
+// @media screen and (min-width: 800px) {
+//   .container {
+//     justify-content: unset;
+//     grid-template-rows: 30vh 50vh 20vh;
+//   }
+// }

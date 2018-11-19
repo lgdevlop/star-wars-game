@@ -1,0 +1,10 @@
+.card-dados-box {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-dados-box p {
+  font-family: 'Roboto';
+  color: #fff;
+  word-wrap: break-word;
+}

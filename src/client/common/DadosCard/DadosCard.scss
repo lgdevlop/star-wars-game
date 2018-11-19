@@ -1,0 +1,44 @@
+@import "../assets/mixins.scss";
+
+.card-dados {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  & p {
+    font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
+    // color: #af639e;
+    color: #4aa942;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    @include fluid-typo(15, 19, 1259, 340)
+  }
+
+}
+.card-dados-box {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.card-dados-featured {
+  margin-top: 20px;
+  align-self: center;
+  & p {
+    color: #E6250A;
+  }
+}
+// .card-dados-box p {
+//   font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
+//   // color: #af639e;
+//   color: #4aa942;
+//   word-wrap: break-word;
+//   text-transform: uppercase;
+//   @include fluid-typo(15, 19, 1259, 340)
+// }
+.card-dados-box span {
+  color: #f0b084;
+}

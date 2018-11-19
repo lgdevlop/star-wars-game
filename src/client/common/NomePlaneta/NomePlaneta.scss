@@ -1,0 +1,26 @@
+@import "../assets/mixins.scss";
+
+.nome-planeta {
+  width: 100%;
+  // font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
+  // font-size: 22px;
+  // text-align: center;
+  // color: #5F9FDD;
+  // color: #e6250a;
+  // color: #000;
+  // border-radius: 10px 10px 0 0;
+  // background: #442F11;
+  background: #5F9FDD;
+  // overflow: hidden;
+
+  & h1 {
+    font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000;
+    @include fluid-typo(20, 34, 1259, 340);
+    line-height: 1.4em;
+    text-align: center;
+
+  }
+
+
+}

@@ -1,0 +1,30 @@
+.pd-lf-10 {
+ padding-left: 10px;
+}
+.pd-lf-42 {
+  padding-left: 3.33vw; /* 100vw = 1263 - 3.33vw ~ 42px*/
+ }
+.pd-rt-10 {
+  padding-right: 10px;
+ }
+ .pd-rt-42 {
+  padding-right: 3.33vw; /* 100vw = 1263 - 3.33vw ~ 42px*/
+ }
+.pd-tp-10 {
+  padding-top: 10px;
+}
+.pd-tp-20 {
+  padding-top: 20px;
+}
+.pd-tp-50 {
+  padding-top: 50px;
+}
+.pd-bt-10 {
+  padding-bottom: 10px;
+}
+.pd-bt-20 {
+  padding-bottom: 20px;
+}
+.pd-bt-50 {
+  padding-bottom: 50px;
+}

@@ -1,0 +1,24 @@
+.typos-header {
+  font-family: 'Fira Sans';
+  color: #d51007;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.typos-artista__titulo {
+  margin: 0;
+  font-family: 'Fira Sans';
+  color: #fefefe;
+  font-size: 30px;
+  font-weight: 500;
+}
+.typos-artista__dados {
+  margin: 0;
+  font-family: 'Fira Sans';
+  color: #fefefe;
+  font-size: 24px;
+  font-weight: 300;
+}
+.tt-up {
+  text-transform: uppercase;
+}

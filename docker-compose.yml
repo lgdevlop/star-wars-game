@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  # Versao Final do Projeto de Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend.Dockerfile
+    image: starwarsfrontend
+    ports:
+      - "8080:8080"

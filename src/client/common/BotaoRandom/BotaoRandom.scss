@@ -1,0 +1,61 @@
+@import "../assets/mixins.scss";
+
+.botao-random {
+  // height: 4em;
+  // border: 2px solid #5F9FDD;
+  margin-top: 20px;
+  & button {
+    width: 40vw;
+    // height: 2.2em;
+    font-family: 'Roboto','Segoe UI', Tahoma, Verdana, sans-serif;
+    // font-size: 20px;
+    @include fluid-typo(14, 19, 1259, 340);
+    // @include fluid-height(15, 19, 1259, 340);
+    // height: 2.2em;
+    height: 4.4em;
+    color: #4AA942;
+    border: 2px solid #5F9FDD;
+    // border: none;
+    background: transparent;
+    // background: linear-gradient(-45deg, #e6250a, #e83a22, #6fa8e0, #5f9fdd);
+    // background-size: 400% 400%;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
+    // animation: Gradient 15s ease infinite;
+
+    @include media-queries(520) {
+      height: 3.4em;
+      width: 30vw;
+    }
+    @include media-queries(800) {
+      height: 3em;
+      width: 30vw;
+    }
+    @include media-queries(1200) {
+      height: 2.2em;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: #000000;
+      background: #E6250A;
+      border: 2px solid #E6250A;
+      box-shadow: 0 5px 25px #E6250ACC;
+    }
+  }
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+}

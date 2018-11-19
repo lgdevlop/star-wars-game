@@ -1,0 +1,70 @@
+.header__logo {
+  height: auto;
+  /* Viewport Width: 1263px - header__logo width: 500px*/
+  width: 80vw;
+  /* background-color: rgb(82, 51, 255); */
+  /* margin-left: 42px; */
+}
+.barra-navegacao__nav.black .header__logo {
+  /* height: auto;
+  width: 30vw; */
+}
+path {
+  /* stroke: #7ed6df; */
+  /* stroke: #207982; */
+  /* stroke: #2f2f2f; */
+  stroke: #ccac00;
+  /* fill: #7ed6df; */
+  fill: #ffd700;
+  /* fill: #2f2f2f; */
+  stroke-dasharray: 1900;
+  opacity: 10;
+  animation: animate 10s cubic-bezier(0,0.23,1,.1) infinite;
+}
+@keyframes animate {
+  /* 0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1000;
+  } */
+  0% {
+    opacity: 10;
+    /* fill: #f9cb24; */
+    fill: #ffd700;
+    /* fill: #2f2f2f; */
+    stroke-dashoffset: 0;
+  }
+  30% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 1900;
+  }
+  90% {
+    /* fill: #f9cb2400; */
+    fill: #ffd700b2;
+    /* fill: #2f2f2f00; */
+  }
+  /* 100% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1000;
+  } */
+  100% {
+    opacity: 10;
+    /* fill: #f9cb24; */
+    fill: #ffd700;
+    /* fill: #2f2f2f; */
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header__logo {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    width: 45vw;
+  }
+}

@@ -1,0 +1,43 @@
+@import "../assets/mixins.scss";
+
+.header__logo {
+  align-self: center;
+  height: auto;
+  width: 90vw;
+
+  @include media-queries(800) {
+    width: 80vw;
+  }
+  @include media-queries(1200) {
+    width: 70vw;
+  }
+}
+.barra-navegacao__nav.black .header__logo {
+}
+path {
+  stroke: #ccac00;
+  fill: #ffd700;
+  stroke-dasharray: 1900;
+  opacity: 10;
+  animation: animate 10s cubic-bezier(0,0.23,1,.1) infinite;
+}
+@keyframes animate {
+  0% {
+    opacity: 10;
+    fill: #ffd700;
+    stroke-dashoffset: 0;
+  }
+  30% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 1900;
+  }
+  90% {
+    fill: #ffd700b2;
+  }
+  100% {
+    opacity: 10;
+    fill: #ffd700;
+    stroke-dashoffset: 0;
+  }
+}

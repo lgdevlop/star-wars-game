@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+/* @import url('./common.css'); */
+@import url('./typography.css');
+/* @import url('./components/components.css'); */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background: #000000CC;
+} */
+/* .container {
+  height: 100vh;
+  display: grid;
+  /* grid-template-rows: auto 1fr; */
+  /* grid-template-rows: .3fr .7fr; */
+  /* grid-template-rows: 30vh 40vh 30vh; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* background: #000; */
+/* } */
+/* @media screen and (min-width: 800px) {
+  .container {
+    /* justify-content: unset; */
+    /* grid-template-rows: 30vh 60vh; */
+    /* grid-template-rows: 30vh 50vh 20vh; */
+  /* } */
+/* } */

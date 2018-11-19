@@ -1,0 +1,45 @@
+@import "../../common/assets/mixins.scss";
+
+.card-box {
+  width: 80vw;
+  // height: 90%;
+  height: 100%;
+  grid-row: 2 / 3;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #5F9FDD;
+
+  &:hover {
+    /* box-shadow: 0 5px 25px #0087E980; */
+    box-shadow: 0 5px 25px #5F9FDD80;
+    /* box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); */
+    cursor: pointer;
+  }
+
+  & h1 {
+    color: #4AA942;
+    text-transform: uppercase;
+  }
+
+  @include media-queries(800) {
+    width: 50vw;
+  }
+  // @include media-queries(1200) {
+  //   width: 40vw;
+  // }
+
+}
+// .card-box:hover {
+//   /* box-shadow: 0 5px 25px #0087E980; */
+//   box-shadow: 0 5px 25px #5F9FDD80;
+//   /* box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08); */
+//   cursor: pointer;
+// }
+
+.card-box--loading {
+  justify-content: center;
+  text-align: center;
+  // @include fluid-typo(15, 19, 1259, 340)
+}

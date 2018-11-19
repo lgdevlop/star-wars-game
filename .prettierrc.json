@@ -1,0 +1,21 @@
+{
+  "parser": "babylon",
+  "useTabs": false,
+  "endOfLine": "lf",
+  "tabWidth": 2,
+  "printWidth": 90,
+  "singleQuote": true,
+  "semi": false,
+  "bracketSpacing": true,
+  "trailingComma": "es5",
+  "jsxBracketSameLine": false,
+  "arrowParens": "always",
+  "overrides": [
+		{
+			"files": "*.md",
+			"options": {
+				"parser": "markdown"
+			}
+		}
+  ]
+}

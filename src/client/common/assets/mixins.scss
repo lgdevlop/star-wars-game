@@ -1,0 +1,19 @@
+@mixin fluid-typo($fnt-tm-min, $fnt-tm-max, $vw-tm-max, $vw-tm-min) {
+  // font-size: calc(#{$fnt-tm-min} + #{$fnt-offset-tm-max} * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min})))
+  // font-size: calc(#{$fnt-tm-min} + #{$fnt-offset-tm-max} * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min})))
+  font-size: calc(#{$fnt-tm-min}px + (#{$fnt-tm-max} - #{$fnt-tm-min}) * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min})));
+}
+@mixin fluid-height($fnt-tm-min, $fnt-tm-max, $vw-tm-max, $vw-tm-min) {
+  // font-size: calc(#{$fnt-tm-min} + #{$fnt-offset-tm-max} * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min})))
+  // font-size: calc(#{$fnt-tm-min} + #{$fnt-offset-tm-max} * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min})))
+  height: calc((#{$fnt-tm-min}px + (#{$fnt-tm-max} - #{$fnt-tm-min}) * ((100vw - #{$vw-tm-min}px) / (#{$vw-tm-max} - #{$vw-tm-min}))) * 1.4);
+}
+@mixin media-queries($size) {
+  @if $size == 800 {
+    @media screen and (min-width: 800px) { @content; }
+  } @else if $size == 1200 {
+    @media screen and (min-width: 1200px) { @content; }
+  } @else if $size == 520 {
+    @media screen and (min-width: 520px) { @content; }
+  }
+}
