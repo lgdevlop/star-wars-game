@@ -7,7 +7,7 @@
   - **YARN:**
     - `yarn`
 
-- **Para subir servidor express para servir o conteudo buildado:**
+- **Para subir a API REST(Necessário ter o serviço do MongoDB rodando na porta padrão neste momento):**
 
   - **NPM:**
     - `npm run server`
