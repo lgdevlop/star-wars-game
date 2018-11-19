@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  dbmongo:
+    image: mongo
+
+  # Versao Final do Projeto de Backend
+  backend:
+    build:
+      context: .
+      dockerfile: backend.Dockerfile
+    depends_on:
+      - dbmongo
+    image: starwarsbackend
+    ports:
+      - "4444:4444"
