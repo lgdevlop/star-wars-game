@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Leonardo Gomes <lgdevlop@gmail.com>",
   "description": "Desafio frontend e backend B2W",
-  "repository": "git@github.com:lgdevlop/",
+  "repository": "git@github.com:lgdevlop/star-wars-game.git",
   "keywords": [],
   "license": "MPL-2.0",
   "main": "index.js",
