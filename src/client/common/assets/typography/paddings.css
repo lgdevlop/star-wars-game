@@ -3,13 +3,13 @@
 }
 .pd-lf-42 {
   padding-left: 3.33vw; /* 100vw = 1263 - 3.33vw ~ 42px*/
- }
+}
 .pd-rt-10 {
   padding-right: 10px;
- }
- .pd-rt-42 {
-  padding-right: 3.33vw; /* 100vw = 1263 - 3.33vw ~ 42px*/
- }
+}
+.pd-rt-42 {
+padding-right: 3.33vw; /* 100vw = 1263 - 3.33vw ~ 42px*/
+}
 .pd-tp-10 {
   padding-top: 10px;
 }
