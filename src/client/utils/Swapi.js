@@ -19,7 +19,7 @@ const preparaURL = () => {
  * Obtem os dados da SWAPI
  */
 const obtemDados = async () => {
-  parametros.url = 'https://swapi.co/api/'
+  parametros.url = 'https://swapi.dev/api/'
   parametros.format = '?format=json'
   preparaURL()
   const dados = await fetch(url).then((resposta) => resposta.json())
